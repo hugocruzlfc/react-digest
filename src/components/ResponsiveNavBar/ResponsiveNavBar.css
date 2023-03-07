@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .nav-link {
+    color: #efefef !important;
+  }
+}
