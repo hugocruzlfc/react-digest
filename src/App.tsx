@@ -1,9 +1,11 @@
 import ResponsiveNavBar from "./components/ResponsiveNavBar/ResponsiveNavBar";
+import Navbar from "./components/ResponsiveNavBarII/Navbar";
 
 function App() {
   return (
     <div>
-      <ResponsiveNavBar />
+      {/* <ResponsiveNavBar /> */}
+      <Navbar />
     </div>
   );
 }
