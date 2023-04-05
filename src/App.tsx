@@ -1,11 +1,13 @@
 import ResponsiveNavBar from "./components/ResponsiveNavBar/ResponsiveNavBar";
-import Navbar from "./components/ResponsiveNavBarII/Navbar";
+import Navbar from "./components/ResponsiveNavBarII/NavBar";
+import RevealScroll from "./components/RevealScroll/RevealScroll";
 
 function App() {
   return (
     <div>
-      {/* <ResponsiveNavBar /> */}
-      <Navbar />
+      {/* <ResponsiveNavBar /> 
+      <Navbar />*/}
+      <RevealScroll />
     </div>
   );
 }
