@@ -1,3 +1,4 @@
+import CodeSpliting from "./components/CodeSpliting/CodeSpliting";
 import { Form as FormForwardRef } from "./components/FormRefs/FormForwardRef";
 import { Form as FormUseImperative } from "./components/FormRefs/FormUseImperative";
 import { Page } from "./components/PageUsePrevius/Page";
@@ -11,10 +12,11 @@ function App() {
       {/* <ResponsiveNavBar /> 
       <Navbar />
       <RevealScroll />*/}
-      <FormForwardRef />
+      {/* <FormForwardRef />
       <FormUseImperative />
       <br />
-      <Page />
+      <Page /> */}
+      <CodeSpliting />
     </div>
   );
 }
