@@ -1,3 +1,4 @@
+import Closures from "./components/Closures/Closures";
 import CodeSpliting from "./components/CodeSpliting/CodeSpliting";
 import { Form as FormForwardRef } from "./components/FormRefs/FormForwardRef";
 import { Form as FormUseImperative } from "./components/FormRefs/FormUseImperative";
@@ -16,7 +17,8 @@ function App() {
       <FormUseImperative />
       <br />
       <Page /> */}
-      <CodeSpliting />
+      {/* <CodeSpliting /> */}
+      <Closures />
     </div>
   );
 }
